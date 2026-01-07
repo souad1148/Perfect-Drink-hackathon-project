@@ -15,6 +15,6 @@ export default `<!doctype html>
 </script>
   <app-root></app-root>
 
-<script src="main-UXR5YGVQ.js" type="module"></script></body>
+<script src="main-QEZI2LPP.js" type="module"></script></body>
 </html>
 `;

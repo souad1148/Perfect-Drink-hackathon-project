@@ -14,6 +14,6 @@ export default `<!doctype html>
 <body class="bg-[#fcf9f5] font-poppins" ngcm="">
   <app-root></app-root>
 
-<script src="main-UXR5YGVQ.js" type="module"></script></body>
+<script src="main-QEZI2LPP.js" type="module"></script></body>
 </html>
 `;

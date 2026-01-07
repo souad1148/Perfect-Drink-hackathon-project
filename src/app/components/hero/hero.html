@@ -1,25 +1,89 @@
-<section class="relative flex justify-between items-center min-h-screen px-20 pt-18">
-  <div class="max-w-lg space-y-5 mt-10 top-0">
-    <h1 class="text-6xl font-medium leading-tight">
+<section
+  class="relative flex flex-col lg:flex-row justify-between 
+         min-h-screen
+         px-4 sm:px-10 lg:px-20
+         pt-24 lg:pt-18"
+>
+
+  <!-- IMAGE : PREMIÈRE SUR MOBILE -->
+  <div
+    class="relative
+           order-1 lg:order-2
+           mx-auto
+           mb-12
+           lg:mb-0
+           lg:mx-0
+           lg:absolute
+           lg:top-50 lg:right-3
+           w-[280px] h-[280px]
+           sm:w-[380px] sm:h-[380px]
+           lg:w-[520px] lg:h-[520px]
+           rounded-full
+           flex justify-center items-end
+           bg-amber-950
+           shadow-2xl
+           scale-100 lg:scale-130"
+  >
+    <img
+      src="assets/798b236510781449109b6effffa6abdf09137cc6.png"
+      class="w-[200px] sm:w-[280px] lg:w-[400px]
+             -translate-y-6 sm:-translate-y-8 lg:-translate-y-10
+             transition-transform"
+      alt="Drink"
+    >
+  </div>
+
+  <!-- TEXTE : APRÈS L’IMAGE SUR MOBILE -->
+  <div
+    class="max-w-lg space-y-5
+           text-center lg:text-left
+           order-2 lg:order-1"
+  >
+    <h1
+      class="text-3xl sm:text-4xl lg:text-6xl
+             font-medium leading-tight"
+    >
       Find <b class="text-gray-900">Perfect</b> Drink <br>
       Crafted <b class="text-gray-900">Just For You</b>
     </h1>
 
-    <h2 class="text-5xl font-bold text-pink-950">$28.00</h2>
+    <h2
+      class="text-3xl sm:text-4xl lg:text-5xl
+             font-bold text-pink-950"
+    >
+      $28.00
+    </h2>
 
-    <p class="text-lg text-[#555] mb-8">Lorem ipsum dolor sit amet consectetur. Lorem Ipsum dolor sit amet consectetur. Lorem Ipsum dolor sit amet consectetur.</p>
-    <div class="flex gap-5 ml-35">
-      <button class="bg-amber-950 text-white px-5 py-4 rounded-full shadow hover:bg-white hover:text-amber-950 border-2 border-amber-950 transition">
+    <p class="text-base sm:text-lg text-[#555] mb-8">
+      Lorem ipsum dolor sit amet consectetur. Lorem Ipsum dolor sit amet consectetur. Lorem Ipsum dolor sit amet consectetur.
+    </p>
+
+    <div
+      class="flex flex-col sm:flex-row gap-5
+             justify-center lg:justify-start
+             lg:ml-35"
+    >
+      <button
+        class="bg-amber-950 text-white px-5 py-4 rounded-full shadow
+               border-2 border-amber-950
+               hover:bg-white hover:text-amber-950
+               transition"
+      >
         Order Now
       </button>
 
-      <button class="border-2 border-amber-950 text-amber-950 px-5 py-4 rounded-full hover:bg-amber-950 hover:text-white flex justify-center items-center gap-3">
-        <i class='bx bx-plus-circle'></i> 01 <i class='bx bx-minus-circle'></i>
+      <button
+        class="border-2 border-amber-950 text-amber-950
+               px-5 py-4 rounded-full
+               flex justify-center items-center gap-3
+               hover:bg-amber-950 hover:text-white
+               transition"
+      >
+        <i class="bx bx-plus-circle"></i>
+        01
+        <i class="bx bx-minus-circle"></i>
       </button>
     </div>
   </div>
 
-  <div class="absolute top-50 right-3 w-[520px] h-[520px] rounded-full flex scale-130 justify-center items-end bg-amber-950 shadow-2xl">
-    <img src="assets/798b236510781449109b6effffa6abdf09137cc6.png" class="w-[400px] -translate-y-10 hover:-translate-y-3 transition-transform">
-  </div>
 </section>
